@@ -1,3 +1,15 @@
+:root {
+  --white: #fff;
+  --translucent-white: #d7ccc0;
+  --light: #f5f4f0;
+  --main-color: #fe8a02;
+  --main-dark-color: #42413c;
+  --dark: #2a2626;
+  --transluent-dark: #908d8b;
+  --brown: #b09a81;
+  --blue: #1085c5;     
+}
+
 @font-face {
     font-family: "Open Sans";
     src: url();
@@ -13,11 +25,11 @@ header h1 {
 }
 
 header h1 black {
-    color: #2A2626;
+    color: var(--dark);
 }
 
 header h1 orange {
-    color: ;
+    color: var(--main-color);
 }
 
 article h2 {
@@ -30,7 +42,7 @@ article h3 {
 
 article {
     font: 16px/1.6em "Open Sans", sans-serif; 
-    color: #2A2626;
+    color: var(--dark);
 }
 
 body {
